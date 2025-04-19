@@ -1,0 +1,18 @@
+{
+  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-console": "warn",
+    "tabWidth": 2,
+    "semi": 1,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "quoteProps": "as-needed",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "auto",
+    "no-whitespace-before-property": "warn"
+  }
+}
